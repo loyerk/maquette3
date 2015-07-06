@@ -1,0 +1,460 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+                          /*<!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!-- /!\ OUBLIE PAS DE VALIDER W3C /!\ -->
+                            <!--           /!\ CONNARD /!\         -->*/
+.clear{
+    clear: both;
+}
+body{
+	background-image: url("misc/background-violet.png"), url("misc/background-vert.png"), url("misc/etoiles-petites.png"), url("misc/etoiles-grandes.png");
+	background-repeat: repeat-x;
+	background-color: #341977;
+	background-position: 0px 1px;
+}
+#main{
+	width: 960px;
+	margin: auto;
+}
+/*-- /////////////// PARTIE 1 : HEADER /////////////// */
+#header{
+	width: 960px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+#title div{
+	background-image: url('misc/batman.png');
+	height: 44px;
+	width: 44px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#title div:hover{
+	transform: rotate(360deg);
+	transition: 0.6s ease-in;
+}
+#title h1{
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 1em;
+	color: #bcbfcc;
+}
+#menu{
+	width: 308px;
+	margin-left: 310px;
+	float: left;
+}
+#menu li a{
+	float: left;
+	margin-left: 7px;
+	list-style: none outside none;
+	text-decoration: none;
+	margin-top: 18px;
+	font-size: 0.8em;
+	color: #BCBFCC;
+	padding: 5px;
+	border-radius: 10px;
+}
+#menu li a:hover{
+	background-color: #d1ccd9;
+	background-color: rgba(188, 191, 204, 0.15);
+	transition: 0.3s ease-in;
+	color: white;
+}
+/* ///////////// PARTIE 2 : BODY DU SITE ///////////// */
+#mainBody{
+	background-image: url("misc/background-neige.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%;        /* Opera 9.5 */
+	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
+	background-size: 100% 100%; 
+	min-height: 1049px;
+	width: 960px;
+	float: left;
+	border-radius: 10px;
+}
+#headerTexte{
+	float: left;
+	font-size: 1.3em;
+	width: 430px;
+	margin: 30px;
+}
+#nombreMenu{
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+#headerBody span{
+	float: left;
+	font-size: 2em;
+	text-align: center;
+	background-color: #333;
+	height: 35px;
+	width: 35px;
+	color: #FFF;
+	border-radius: 3px;
+	margin-left: 2px;
+	padding-top: 4px;
+}
+#detritusMenu{
+	font-size: 0.8em;
+	margin-left: 26px;
+	margin-top: 45px;
+}
+/* /////////////// PARTIE 3 : SLIDER /////////////// */
+#precedent{
+	position: absolute;
+	background-image: url("misc/precedent.png");
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	margin-top: 55px;
+	margin-left: -20px;
+}
+#suivant{
+	position: absolute;
+	background-image: url("misc/suivant.png");
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	margin-left: 940px;
+	margin-top: 50px;
+}
+#bandeSlider{
+	background-color: rgba(84, 57, 151, 0.5);
+	width: 945px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.sliderDiv{
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	width: 140px;
+	background-color: rgba(84, 57, 151, 0.5);
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#bandeSlider a{
+	height: 90px;
+	width: 140px;
+	background-image: url("misc/plage.jpg");
+	background-size: 140px 90px;
+	background-repeat: no-repeat;
+	padding-bottom: 5px;
+	float: left;
+}
+#bandeSlider figcaption{
+	font-size: 0.6em;
+	color: #D1CCD9;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#plastique{
+	height: 65px;
+	width: 65px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#megot{
+	height: 65px;
+	width: 65px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#coton{
+	height: 65px;
+	width: 95px;
+	margin-left: 15px;
+	margin-top: 15px;
+	transform: rotate(-10deg);
+}
+#bouteille{
+	height: 65px;
+	width: 95px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#parasol{
+	height: 65px;
+	width: 65px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+#plastique:hover{
+	height: 81.25px;
+	width: 81.25px;
+	transition: 0.2s ease-in;
+}
+#megot:hover{
+	height: 78px;
+	width: 78px;
+	margin-left: 20px;
+	transition: 0.2s ease-in;
+}
+#coton:hover{
+	margin-left: 30px;
+	transition: 0.2s ease-in;
+}
+#bouteille:hover{
+	transform: rotate(-15deg);
+	transition: 0.2s ease-in;
+}
+#parasol:hover{
+	opacity: 0.4;
+	transition: 0.4s ease-in;
+
+}
+/* /////////////// PARTIE 4 : News  /////////////// */
+#newsDiv{
+	float: left;
+	width: 555px;
+	padding-left: 52px;
+	padding-top: 26px;
+}
+#newsDiv h2{
+	text-transform: uppercase;
+	float: left;
+}
+#newsDiv h3{
+	font-weight: bold;
+	float: left;
+	width: 550px;
+	margin-top: 10px;
+}
+#newsDiv p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+#column{
+    -webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    -webkit-column-rule: 3px dotted #919193;
+    -moz-column-rule: 3px dotted #919193; 
+    column-rule: 3px dotted #919193;
+}
+.horloge{
+	background-image: url('misc/clock.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 400px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+/* ////////// PARTIE 5 : Menu + Newsletter ////////// */
+#menuDiv{
+	float: left;
+	width: 270px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+#menuDiv h2{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.liste{
+	font-weight: bold;
+	float: left;
+	font-size: 0.8em;
+}
+li:hover{
+	background-color: purple;
+}
+#liste1{
+	background-image: url("misc/sac-plastique.png");
+	width: 75px;
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	float: right;
+	font-size: 0.8em;
+	background-position: right;
+	color: #919193;
+}
+#liste2{
+	background-image: url("misc/megot.png");
+	width: 75px;
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	float: right;
+	font-size: 0.8em;
+	background-position: right;
+	color: #919193;
+}
+#liste3{
+	background-image: url("misc/coton-tige.png");
+	width: 75px;
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	float: right;
+	font-size: 0.8em;
+	background-position: right;
+	color: #919193;
+}
+#liste4{
+	background-image: url("misc/bouteille.png");
+	width: 75px;
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	float: right;
+	font-size: 0.8em;
+	background-position: right;
+	color: #919193;
+}
+#liste5{
+	background-image: url("misc/parasol.png");
+	width: 75px;
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	float: right;
+	font-size: 0.8em;
+	background-position: right;
+	color: #919193;
+}
+#menuDiv ul{
+	float: left;
+	list-style: none;
+	background-color: white;
+	width: 270px;
+	border-radius: 10px;
+	opacity: 0.7;
+	margin-bottom: 15px;
+}
+#menuDiv li+li{
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+#menuDiv li{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+#menuDiv span{
+	padding-right: 25px;
+}
+form{
+	float: left;
+	background-color: #d4d0e9;
+	width: 270px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+form h2{
+	text-align: center;
+	padding-top: 5px;
+}
+form p{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+form input{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#bouton{
+  margin-left: 32%;
+  border:0px;
+  background: #f7f7f7;
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #bcbcbc);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #bcbcbc);
+  background-image: -ms-linear-gradient(top, #f7f7f7, #bcbcbc);
+  background-image: -o-linear-gradient(top, #f7f7f7, #bcbcbc);
+  background-image: linear-gradient(to bottom, #f7f7f7, #bcbcbc);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 0px 3px #666666;
+  -moz-box-shadow: 1px 0px 3px #666666;
+  box-shadow: 1px 0px 3px #666666;
+  color: #575757;
+  padding: 5px 10px 5px 10px;
+}
+#bouton:hover{
+	background: #c9c9c9;
+	background-image: -webkit-linear-gradient(top, #f7f7f7, #808080);
+	background-image: -moz-linear-gradient(top, #f7f7f7, #808080);
+	background-image: -ms-linear-gradient(top, #f7f7f7, #808080);
+	background-image: -o-linear-gradient(top, #f7f7f7, #808080);
+	background-image: linear-gradient(to bottom, #f7f7f7, #808080);
+	-webkit-box-shadow: 0px 0px 0px #FFFFFF;
+	-moz-box-shadow: 0px 0px 0px #FFFFFF;
+	box-shadow: 0px 0px 0px #FFFFFF;
+}
+#menuDiv p{
+	float: left;
+}
+#textNewsletter{
+	margin-top: 15px;
+}
+/* /////////////// PARTIE 6 : Footer  /////////////// */
+#footer{
+	width: 960px;
+	color: #919193;
+	text-align: center;
+	clear: both;
+	padding-top: 10px;
+}
+#ying{
+	background-image: url("misc/ying-yang.png");
+	float: left;
+	height: 50px;
+	width: 50px;
+	opacity: 0.25;
+}
+#pot{
+	background-image: url("misc/pot.png");
+	float: left;
+	height: 50px;
+	width: 50px;
+	opacity: 0.25;
+
+}
+#ping{
+	background-image: url("misc/pingouin.png");
+	float: left;
+	height: 50px;
+	width: 50px;
+	opacity: 0.25;
+}
+#logoCR{
+	float: left;
+	margin-left: 400px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#ying:hover{
+	opacity: 0.50;
+	transition: 0.2s ease-in;
+}
+#pot:hover{
+	opacity: 0.50;
+	transition: 0.2s ease-in;
+
+}
+#ping:hover{
+	opacity: 0.50;
+	transition: 0.2s ease-in;
+}
